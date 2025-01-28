@@ -105,3 +105,28 @@ input {
           justify-content: center;
           align-items: center;
         }
+.tinotext{
+    color: #0b519b;
+    text-decoration: none;
+
+}
+
+.tinospan {
+    color: #d64a5b;
+}
+
+#containerSpin{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+       border: 1px solid;
+       background-color: hsl(240, 17%, 89%);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       i{
+          color: white; 
+       }
+   }

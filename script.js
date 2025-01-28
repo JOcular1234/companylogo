@@ -3,7 +3,7 @@ let companyName = document.getElementById('company-name')
 
         btn.addEventListener('click', async ()=>{
             async function getLogo() {
-let apiKey = 'ISZE7ohZCI5aVXMLDGUOsg==lC1ODuck45QOb0SD' 
+// let apiKey = 'ISZE7ohZCI5aVXMLDGUOsg==lC1ODuck45QOb0SD' 
 
 try {
 
@@ -35,4 +35,9 @@ if (result.length > 0) {
 }                
             }getLogo()
             console.log(btn);
+        });
+
+        window.addEventListener('load',()=>{
+            let cont = document.querySelector('#containerSpin');
+            cont.setAttribute('style','display:none')
         })
