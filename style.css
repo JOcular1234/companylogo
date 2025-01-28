@@ -130,3 +130,8 @@ input {
           color: white; 
        }
    }
+   #logo-spin{
+    font-size: 10px;
+        color: #ccc;
+        display: none;
+   }

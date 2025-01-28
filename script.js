@@ -2,8 +2,11 @@ let companyName = document.getElementById('company-name')
         let btn = document.getElementById('btn')
 
         btn.addEventListener('click', async ()=>{
+
+            let spinner = document.getElementById('logo-spin');
+            spinner.style.display = 'inline-block'
             async function getLogo() {
-// let apiKey = 'ISZE7ohZCI5aVXMLDGUOsg==lC1ODuck45QOb0SD' 
+let apiKey = 'ISZE7ohZCI5aVXMLDGUOsg==lC1ODuck45QOb0SD' 
 
 try {
 
